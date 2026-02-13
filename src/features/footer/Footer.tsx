@@ -50,7 +50,7 @@ const MascotWrapper = styled.div`
 const Mascot = styled.img`
   width: 288px;
   height: 288px;
-  object-fit: contain;
+  object-fit: cover;
   @media (max-width: 1440px) {
     width: 240px;
     height: 240px;
