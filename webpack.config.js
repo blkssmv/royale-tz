@@ -10,7 +10,7 @@ module.exports = (_, argv) => {
       path: path.resolve(__dirname, "dist"),
       filename: isProd ? "bundle.[contenthash].js" : "bundle.js",
       clean: true,
-      publicPath: "/",
+      publicPath: isProd ? "/royale-tz/" : "/",
     },
     resolve: {
       extensions: [".ts", ".tsx", ".js"],
